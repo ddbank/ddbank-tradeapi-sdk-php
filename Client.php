@@ -27,7 +27,6 @@ class Client{
             "brandName" => "品牌名称test",
             "storeName" => "店铺名称test",
             "storeAddr" => "店铺地址test",
-			"storeType" => "",
             "customName" => "客户名称test",
             "brandOrder" => "订单号test",
             "deliverDate" => date('Y-m-d H:i:s'),

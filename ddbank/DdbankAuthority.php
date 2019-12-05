@@ -24,7 +24,7 @@ class DdbankAuthority {
         $this->gateway = $config['gateway'];
         $this->method = $config['method'];
         $this->nonce = $this->generateNonce(18);
-        $this->timestamp = (int)(microtime(true)*1000);
+        $this->timestamp = (int)(microtime(true)).'000';
     }
 
     private function generateNonce($length) {

@@ -27,9 +27,12 @@ class Client{
             "brandName" => "品牌名称test",
             "storeName" => "店铺名称test",
             "storeAddr" => "店铺地址test",
+			"storeType" => "2",//直营(1)加盟(2)
             "customName" => "客户名称test",
             "brandOrder" => "订单号test",
             "deliverDate" => date('Y-m-d H:i:s'),
+			"contactName" => "某某某",
+			"contactPhone" => "13666666666",
         ];
 
         $sign = $ddbankAuthority->getSign($params);
